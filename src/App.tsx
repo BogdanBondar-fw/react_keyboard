@@ -4,7 +4,7 @@ type State = {
   lastPressKey: string | null;
 };
 
-export class App extends React.Component<State> {
+export class App extends React.Component<{}, State> {
   state: State = {
     lastPressKey: null,
   };
